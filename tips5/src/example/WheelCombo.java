@@ -1,4 +1,4 @@
-
+package example;
 //-*- mode:java; encoding:utf8n; coding:utf-8 -*-
 // vim:set fileencoding=utf-8:
 //@homepage@
@@ -24,7 +24,7 @@ public class WheelCombo extends JPanel{
         });
 
         JPanel p = new JPanel();
-        p.setLayout(new GridBagLayout());
+        p.setLayout(new java.awt.GridBagLayout());
         p.setBorder(BorderFactory.createTitledBorder("JComboBox"));
         GridBagConstraints c = new GridBagConstraints();
         c.gridheight = 1;

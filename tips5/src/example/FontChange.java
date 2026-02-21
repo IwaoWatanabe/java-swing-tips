@@ -1,4 +1,4 @@
-
+package example;
 //-*- mode:java; encoding:utf8n; coding:utf-8 -*-
 // vim:set fileencoding=utf-8:
 //@homepage@
@@ -55,7 +55,7 @@ public class FontChange  extends JPanel{
     private JComponent createCompButtonPanel() {
         GridBagConstraints c = new GridBagConstraints();
         JPanel panel = new JPanel();
-        panel.setLayout(new GridBagLayout());
+        panel.setLayout(new java.awt.GridBagLayout());
         c.gridheight = 1;
         c.gridwidth  = 1;
         c.gridy = 0;
