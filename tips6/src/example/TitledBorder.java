@@ -62,8 +62,7 @@ public class TitledBorder extends JPanel {
         });
         panel.setBorder(border);
 
-        JPanel p2 = new JPanel();
-        p2.setLayout(new GridBagLayout());
+        JPanel p2 = new JPanel(new java.awt.GridBagLayout());
         GridBagConstraints c = new GridBagConstraints();
         c.gridheight = 1;
         c.gridx   = 0;

@@ -6,17 +6,27 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.table.*;
 
-public class TestModel extends DefaultTableModel {
+class TestModel5 extends DefaultTableModel {
     private static final ColumnContext[] columnArray = {
-        new ColumnContext("No.",     Integer.class, false),
+        //new ColumnContext("No.",     Integer.class, false),
         new ColumnContext("Name",    String.class,  false),
         new ColumnContext("Comment", String.class,  false)
     };
     private int number = 0;
-    public void addTest(Test t) {
-        Object[] obj = {number, t.getName(), t.getComment()};
+    private final DefaultListModel rowListModel;
+    public TestModel5(DefaultListModel lm) {
+        super();
+        rowListModel = lm;
+    }
+    public void addTest(Test5 t) {
+        Object[] obj = {t.getName(), t.getComment()};
         super.addRow(obj);
+        rowListModel.addElement("row"+number);
         number++;
+    }
+    public void removeRow(int index) {
+        super.removeRow(index);
+        rowListModel.remove(index);
     }
     @Override public boolean isCellEditable(int row, int col) {
         return columnArray[col].isEditable;
@@ -41,9 +51,9 @@ public class TestModel extends DefaultTableModel {
         }
     }
 }
-class Test{
+class Test5 {
     private String name, comment;
-    public Test(String name, String comment) {
+    public Test5(String name, String comment) {
         this.name = name;
         this.comment = comment;
     }
