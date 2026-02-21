@@ -156,11 +156,12 @@ dependencies{
 
 project(':tips5') {
 description 'swing tips for jre5'
+apply plugin: 'application'
 sourceCompatibility = '1.5'
-// mainClassName = 'tips.Launcher'
+mainClassName = 'example.tips'
 jar {
   manifest {
-      // attributes 'Main-Class': mainClassName
+      attributes 'Main-Class': mainClassName
   }
 }
 dependencies{
@@ -171,17 +172,38 @@ dependencies{
 
 
 project(':tips6') {
-description 'swing tips for jre5'
+description 'swing tips for jre6'
+apply plugin: 'application'
 sourceCompatibility = '1.6'
-// mainClassName = 'tips.Launcher'
+mainClassName = 'example.tips'
 jar {
   manifest {
-      // attributes 'Main-Class': mainClassName
+      attributes 'Main-Class': mainClassName
   }
 }
 javadoc {
   options.source = "1.6"
 }
 dependencies{
+  implementation project(':tips5')
+  testCompile group: 'junit', name: 'junit', version: '4.5'
+}}
+
+
+project(':tips7') {
+description 'swing tips for jre7'
+apply plugin: 'application'
+sourceCompatibility = '1.7'
+mainClassName = 'example.tips'
+jar {
+  manifest {
+      attributes 'Main-Class': mainClassName
+  }
+}
+javadoc {
+  options.source = "1.7"
+}
+dependencies{
+  implementation project(':tips5')
   testCompile group: 'junit', name: 'junit', version: '4.5'
 }}

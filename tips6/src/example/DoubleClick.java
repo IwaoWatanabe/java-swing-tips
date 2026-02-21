@@ -8,7 +8,7 @@ import javax.swing.*;
 import javax.swing.table.*;
 
 public class DoubleClick extends JPanel {
-    private final TestModel model = new TestModel();
+    private final TestModel4 model = new TestModel4();
     private final JTable table = new JTable(model);
     public DoubleClick() {
         super(new BorderLayout());
@@ -27,13 +27,13 @@ public class DoubleClick extends JPanel {
         //DefaultCellEditor ce = (DefaultCellEditor)table.getDefaultEditor(Object.class);
         //ce.setClickCountToStart(Integer.MAX_VALUE);
 
-        model.addTest(new Test("Name 1", "comment..."));
-        model.addTest(new Test("Name 2", "Test"));
-        model.addTest(new Test("Name d", ""));
-        model.addTest(new Test("Name c", "Test cc"));
-        model.addTest(new Test("Name b", "Test bb"));
-        model.addTest(new Test("Name a", ""));
-        model.addTest(new Test("Name 0", "Test aa"));
+        model.addTest(new Test4("Name 1", "comment..."));
+        model.addTest(new Test4("Name 2", "Test"));
+        model.addTest(new Test4("Name d", ""));
+        model.addTest(new Test4("Name c", "Test cc"));
+        model.addTest(new Test4("Name b", "Test bb"));
+        model.addTest(new Test4("Name a", ""));
+        model.addTest(new Test4("Name 0", "Test aa"));
 
         table.setAutoCreateRowSorter(true);
         table.setFillsViewportHeight(true);
@@ -51,7 +51,7 @@ public class DoubleClick extends JPanel {
         }
     }
     private void testCreateActionPerformed(ActionEvent e) {
-        model.addTest(new Test("New row", ""));
+        model.addTest(new Test4("New row", ""));
         Rectangle r = table.getCellRect(model.getRowCount()-1, 0, true);
         table.scrollRectToVisible(r);
     }

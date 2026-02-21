@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST TitledBorder" />
-  <property name="jnlp.Name"     value="TitledBorder" />
-  <property name="jnlp.name"     value="titledborder" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/titledborder/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/TitledBorder.html" />
-</project>
