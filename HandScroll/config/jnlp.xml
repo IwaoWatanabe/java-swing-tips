@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST HandScroll" />
-  <property name="jnlp.Name"     value="HandScroll" />
-  <property name="jnlp.name"     value="handscroll" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/handscroll/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/HandScroll.html" />
-</project>

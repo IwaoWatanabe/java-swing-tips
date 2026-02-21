@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST ButtonWidth" />
-  <property name="jnlp.Name"     value="ButtonWidth" />
-  <property name="jnlp.name"     value="buttonwidth" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/buttonwidth/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/ButtonWidth.html" />
-</project>

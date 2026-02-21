@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST ProgressMonitor" />
-  <property name="jnlp.Name"     value="ProgressMonitor" />
-  <property name="jnlp.name"     value="progressmonitor" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/progressmonitor/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/ProgressMonitor.html" />
-</project>

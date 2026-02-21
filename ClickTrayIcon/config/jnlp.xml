@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST ClickTrayIcon" />
-  <property name="jnlp.Name"     value="ClickTrayIcon" />
-  <property name="jnlp.name"     value="clicktrayicon" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/clicktrayicon/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/ClickTrayIcon.html" />
-</project>

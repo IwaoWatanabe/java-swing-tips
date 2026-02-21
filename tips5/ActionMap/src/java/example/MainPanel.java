@@ -16,6 +16,7 @@ public final class MainPanel extends JPanel {
     ActionMap am = pf1.getActionMap();
     Action beep = new DefaultEditorKit.BeepAction();
 
+<<<<<<< HEAD
     am.put(DefaultEditorKit.cutAction, beep);
     am.put(DefaultEditorKit.copyAction, beep);
     am.put(DefaultEditorKit.pasteAction, beep);
@@ -38,6 +39,40 @@ public final class MainPanel extends JPanel {
           UIManager.getLookAndFeel().provideErrorFeedback(c);
           String msg = "paste is disabled";
           JOptionPane.showMessageDialog(getRootPane(), msg, "Error", JOptionPane.ERROR_MESSAGE);
+=======
+        ActionMap am = pf1.getActionMap();
+        Action beep = new DefaultEditorKit1.BeepAction();
+
+        am.put(DefaultEditorKit1.cutAction,   beep);
+        am.put(DefaultEditorKit1.copyAction,  beep);
+        am.put(DefaultEditorKit1.pasteAction, beep);
+        pf1.setActionMap(am);
+
+        pf2 = new JTextField() {
+            @Override public void copy() {
+                //System.out.println("copy");
+                UIManager.getLookAndFeel().provideErrorFeedback(this);
+                //java.awt.Toolkit.getDefaultToolkit().beep();
+            }
+            @Override public void cut() {
+                //System.out.println("cut");
+                UIManager.getLookAndFeel().provideErrorFeedback(this);
+                //java.awt.Toolkit.getDefaultToolkit().beep();
+            }
+        };
+        am = pf2.getActionMap();
+        am.put(DefaultEditorKit1.pasteAction, new AbstractAction() {
+            @Override public void actionPerformed(ActionEvent ae) {
+                EventQueue.invokeLater(new Runnable() {
+                    @Override public void run() {
+                        java.awt.Toolkit.getDefaultToolkit().beep();
+                        JOptionPane.showMessageDialog(
+                            MainPanel.this, "paste is disabled", "title",
+                            JOptionPane.ERROR_MESSAGE);
+                    }
+                });
+            }
+>>>>>>> gradle-build
         });
       }
     });
