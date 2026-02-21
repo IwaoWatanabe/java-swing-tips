@@ -62,7 +62,7 @@ public class MainPanel extends JPanel {
         });
         panel.setBorder(border);
 
-        JPanel p2 = new JPanel(new GridBagLayout());
+        JPanel p2 = new JPanel(new GridBagLayout1());
         GridBagConstraints c = new GridBagConstraints();
         c.gridheight = 1;
         c.gridx   = 0;
