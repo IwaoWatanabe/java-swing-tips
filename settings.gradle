@@ -1,3 +1,6 @@
-file('.').eachDirMatch(~/[A-Z]\w+/) {
-    include it.name
-}
+
+include ':tips4'
+include ':tips5'
+include ':tips6'
+include ':tips7'
+

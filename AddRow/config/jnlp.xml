@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST AddRow" />
-  <property name="jnlp.Name"     value="AddRow" />
-  <property name="jnlp.name"     value="addrow" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/addrow/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/AddRow.html" />
-</project>

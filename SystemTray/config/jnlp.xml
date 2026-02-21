@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST SystemTray" />
-  <property name="jnlp.Name"     value="SystemTray" />
-  <property name="jnlp.name"     value="systemtray" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/systemtray/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/SystemTray.html" />
-</project>
