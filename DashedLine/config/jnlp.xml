@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST DashedLine" />
-  <property name="jnlp.Name"     value="DashedLine" />
-  <property name="jnlp.name"     value="dashedline" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/dashedline/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/DashedLine.html" />
-</project>

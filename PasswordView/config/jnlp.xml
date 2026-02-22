@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST PasswordView" />
-  <property name="jnlp.Name"     value="PasswordView" />
-  <property name="jnlp.name"     value="passwordview" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/passwordview/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/PasswordView.html" />
-</project>
