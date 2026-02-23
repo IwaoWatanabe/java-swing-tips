@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST FileHistory" />
-  <property name="jnlp.Name"     value="FileHistory" />
-  <property name="jnlp.name"     value="filehistory" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/filehistory/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/FileHistory.html" />
-</project>

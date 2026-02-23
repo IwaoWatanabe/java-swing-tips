@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST CenterFrame" />
-  <property name="jnlp.Name"     value="CenterFrame" />
-  <property name="jnlp.name"     value="centerframe" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/centerframe/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/CenterFrame.html" />
-</project>

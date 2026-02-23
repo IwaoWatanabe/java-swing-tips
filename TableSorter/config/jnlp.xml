@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST TableSorter" />
-  <property name="jnlp.Name"     value="TableSorter" />
-  <property name="jnlp.name"     value="tablesorter" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/tablesorter/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/TableSorter.html" />
-</project>
