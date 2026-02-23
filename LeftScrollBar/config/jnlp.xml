@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST LeftScrollBar" />
-  <property name="jnlp.Name"     value="LeftScrollBar" />
-  <property name="jnlp.name"     value="leftscrollbar" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/leftscrollbar/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/LeftScrollBar.html" />
-</project>
