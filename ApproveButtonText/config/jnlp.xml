@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST ApproveButtonText" />
-  <property name="jnlp.Name"     value="ApproveButtonText" />
-  <property name="jnlp.name"     value="approvebuttontext" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/approvebuttontext/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/ApproveButtonText.html" />
-</project>
