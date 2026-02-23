@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST BrowserLauncher" />
-  <property name="jnlp.Name"     value="BrowserLauncher" />
-  <property name="jnlp.name"     value="browserlauncher" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/browserlauncher/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/BrowserLauncher.html" />
-</project>

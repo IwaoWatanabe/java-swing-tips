@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST SynchronizedScroll" />
-  <property name="jnlp.Name"     value="SynchronizedScroll" />
-  <property name="jnlp.name"     value="synchronizedscroll" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/synchronizedscroll/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/SynchronizedScroll.html" />
-</project>

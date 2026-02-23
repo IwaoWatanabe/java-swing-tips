@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST LineCursor" />
-  <property name="jnlp.Name"     value="LineCursor" />
-  <property name="jnlp.name"     value="linecursor" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/linecursor/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/LineCursor.html" />
-</project>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST RowTooltips" />
-  <property name="jnlp.Name"     value="RowTooltips" />
-  <property name="jnlp.name"     value="rowtooltips" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/rowtooltips/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/RowTooltips.html" />
-</project>

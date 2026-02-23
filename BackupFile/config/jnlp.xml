@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-  <property name="jnlp.title"    value="JST BackupFile" />
-  <property name="jnlp.Name"     value="BackupFile" />
-  <property name="jnlp.name"     value="backupfile" />
-  <property name="jnlp.codebase" value="https://ateraimemo.com/swing/backupfile/" />
-  <property name="jnlp.homepage" value="https://ateraimemo.com/Swing/BackupFile.html" />
-</project>
